@@ -7,7 +7,8 @@ runtime = set([
     "flask",
     "gunicorn",
     "jupyter",
-    "fabric"
+    "fabric",
+    "ghp-import",
     "pycrypto",
 ])
 
