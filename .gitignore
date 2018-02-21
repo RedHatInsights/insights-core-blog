@@ -1,0 +1,8 @@
+insights_core_docs.egg-info/
+./env
+*.pyc
+*.pid
+.idea/
+env/
+insights-core-blog.iml
+output/

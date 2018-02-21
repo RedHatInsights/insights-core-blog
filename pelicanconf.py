@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'CEE'
-SITENAME = u'insights-core-blogs'
-SITEURL = ''
+SITENAME = u'insights-core-blog'
+SITEURL = 'https://redhatinsights.github.io/insights-core-blog'
 
 PATH = 'content'
 
@@ -12,7 +12,10 @@ TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = u'en'
 
-THEME = "./themes/pure"
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+
+#THEME = "./themes/pure"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
