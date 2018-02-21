@@ -15,7 +15,7 @@ DEFAULT_LANG = u'en'
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 
-#THEME = "./themes/pure"
+THEME = "./themes/gum"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -23,6 +23,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+GITHUB_URL = "https://github.com/RedHatInsights/insights-core-blog"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
