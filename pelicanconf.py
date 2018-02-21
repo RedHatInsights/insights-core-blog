@@ -7,6 +7,7 @@ SITENAME = u'insights-core-blog'
 SITEURL = 'https://redhatinsights.github.io/insights-core-blog'
 
 PATH = 'content'
+OUTPUT_PATH = 'docs/'
 
 TIMEZONE = 'US/Central'
 
